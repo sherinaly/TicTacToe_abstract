@@ -27,7 +27,7 @@ namespace TicTacToe
             return true;
         }// return true if (x,y) is empty and false if not
 
-        public Tuple<byte, byte>[] getAllEmptyCellsInBoard()
+        public Tuple<byte, byte>[] GetAllEmptyCellsInBoard()
         {
         }
 
