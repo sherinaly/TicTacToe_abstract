@@ -29,6 +29,9 @@ namespace TicTacToe
 
         public Tuple<byte, byte>[] GetAllEmptyCellsInBoard()
         {
+             Tuple<byte, byte>[] locations = new Tuple<byte, byte>[1];
+            locations[0]=new Tuple<byte,byte>(1,1);
+            return locations;
         }
 
         /// <summary>
