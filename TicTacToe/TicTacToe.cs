@@ -4,9 +4,9 @@
     {
         public static void StartTheGame()
         {
-            var board = new Board();
-            var p1 = new HumanPlayer();
-            var p2 = new ComputerPlayer();
+            Board board = new Board();
+            HumanPlayer p1 = new HumanPlayer();
+            ComputerPlayer p2 = new ComputerPlayer();
             var noOneWon = true;
             while (noOneWon)
             {
