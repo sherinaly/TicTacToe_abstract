@@ -1,13 +1,13 @@
 ﻿namespace TicTacToe
 {
-    class TicTacToe
+    internal class TicTacToe
     {
         public static void StartTheGame()
         {
-            Board board = new Board();
-            HumanPlayer p1 = new HumanPlayer();
-            ComputerPlayer p2 = new ComputerPlayer();
-            bool noOneWon = true;
+            var board = new Board();
+            var p1 = new HumanPlayer();
+            var p2 = new ComputerPlayer();
+            var noOneWon = true;
             while (noOneWon)
             {
                 // play random
@@ -22,10 +22,9 @@
             }
         }
 
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-
-            TicTacToe.StartTheGame();
+            StartTheGame();
         }
-       }
+    }
 }

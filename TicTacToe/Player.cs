@@ -4,30 +4,29 @@ namespace TicTacToe
 {
     public class Player
     {
-        private readonly char _mySymbolOnBoard;  // set by the constructor; could be either ‘x’ or ‘o’
-        private bool _iamCurrentlyPlaying;// the playing filed
+        private readonly char _mySymbolOnBoard; // set by the constructor; could be either ‘x’ or ‘o’
+        private bool _iamCurrentlyPlaying; // the playing filed
         private bool _iWon; // initialized to ‘false by constructor
-        
+
         /// <summary>
-        /// Initializes a new instance of the <see cref="Player" /> class.
+        ///     Initializes a new instance of the <see cref="Player" /> class.
         /// </summary>
         /// <param name="symbol">The player symbol.</param>
         /// <param name="board">The board instance.</param>
         public Player(char symbol) // Constructor
         {
             _mySymbolOnBoard = symbol;
-            
         }
 
         public Player()
         {
-            
         }
+
         /// <summary>
-        /// Makes a smart move. 
-        /// It sets the player symbol on one of the empty cells of the board
-        /// and return a flag either this current player won or not. 
-        /// It calls findEmptyCellLocation to locate the move.
+        ///     Makes a smart move.
+        ///     It sets the player symbol on one of the empty cells of the board
+        ///     and return a flag either this current player won or not.
+        ///     It calls findEmptyCellLocation to locate the move.
         /// </summary>
         /// <returns><c>true</c> if the CheckIfIWon returned true (the player won), <c>false</c> otherwise.</returns>
         public virtual bool MakeSmartMove()
@@ -36,8 +35,8 @@ namespace TicTacToe
         }
 
         /// <summary>
-        /// Makes a random move. 
-        /// Pick a random empty location on the board
+        ///     Makes a random move.
+        ///     Pick a random empty location on the board
         /// </summary>
         /// <returns><c>true</c> if CheckIfIWon return true (the player won), <c>false</c> otherwise.</returns>
         public virtual bool MakeRandomMove()
@@ -46,33 +45,31 @@ namespace TicTacToe
         }
 
         /// <summary>
-        /// Picks the symbol.
+        ///     Picks the symbol.
         /// </summary>
         /// <returns>System.Char.</returns>
         public virtual char PickSymbol()
         {
             return 'x';
         }
-       
+
         /// <summary>
-        /// Finds the empty cell location that can make me win.
-        /// The selection is based on defined rules here.
+        ///     Finds the empty cell location that can make me win.
+        ///     The selection is based on defined rules here.
         /// </summary>
         /// <returns>Tuple&lt;System.Int32, System.Int32&gt;.</returns>
         private Tuple<byte, byte> FindBestEmptyCellLocation()
         {
-            return new Tuple<byte, byte>(1,1);
+            return new Tuple<byte, byte>(1, 1);
         }
 
         /// <summary>
-        /// Checks if the current player won.  returns true if player won the game and false o.w.
+        ///     Checks if the current player won.  returns true if player won the game and false o.w.
         /// </summary>
         /// <returns><c>true</c> if the player won, <c>false</c> otherwise.</returns>
         private bool CheckIfIWon()
         {
             return true;
         }
-
-       
     }
 }

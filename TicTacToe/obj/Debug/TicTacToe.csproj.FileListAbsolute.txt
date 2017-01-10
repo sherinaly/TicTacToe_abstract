@@ -1,1 +1,7 @@
 c:\users\mr.fathi\documents\visual studio 2012\Projects\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe.config
+C:\Users\MR.FATHI\Documents\Visual Studio 2012\Projects\TicTacToe_abstract\TicTacToe\bin\Debug\TicTacToe.exe.config
+C:\Users\MR.FATHI\Documents\Visual Studio 2012\Projects\TicTacToe_abstract\TicTacToe\obj\Debug\TicTacToe.csprojResolveAssemblyReference.cache
+C:\Users\MR.FATHI\Documents\Visual Studio 2012\Projects\TicTacToe_abstract\TicTacToe\bin\Debug\TicTacToe.exe
+C:\Users\MR.FATHI\Documents\Visual Studio 2012\Projects\TicTacToe_abstract\TicTacToe\bin\Debug\TicTacToe.pdb
+C:\Users\MR.FATHI\Documents\Visual Studio 2012\Projects\TicTacToe_abstract\TicTacToe\obj\Debug\TicTacToe.exe
+C:\Users\MR.FATHI\Documents\Visual Studio 2012\Projects\TicTacToe_abstract\TicTacToe\obj\Debug\TicTacToe.pdb
