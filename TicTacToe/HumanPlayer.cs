@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TicTacToe
+{
+    class HumanPlayer:Player
+    {
+        /// <summary>
+        /// Makes a random move.
+        /// Pick a random empty location on the board
+        /// </summary>
+        /// <returns><c>true</c> if CheckIfIWon return true (the player won), <c>false</c> otherwise.</returns>
+        public override bool MakeRandomMove()
+        {
+            
+        }
+
+        /// <summary>
+        /// Makes a smart move.
+        /// It sets the player symbol on one of the empty cells of the board
+        /// and return a flag either this current player won or not.
+        /// It calls findEmptyCellLocation to locate the move.
+        /// </summary>
+        /// <returns><c>true</c> if the CheckIfIWon returned true (the player won), <c>false</c> otherwise.</returns>
+        public override bool MakeSmartMove()
+        {
+            
+        }
+    }
+}

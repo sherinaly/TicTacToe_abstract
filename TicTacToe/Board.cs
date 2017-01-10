@@ -40,7 +40,7 @@ namespace TicTacToe
         /// <param name="cellLocation">The cell location.</param>
         /// <param name="symbol">The symbol.</param>
         /// <returns><c>true</c> if cellLocation is empty, <c>false</c> otherwise.</returns>
-        public bool SetThisSymbolAtThisBoardCellLocation(Tuple<int, int> cellLocation, char symbol)
+        public bool SetThisSymbolAtThisBoardCellLocation(char symbol,Tuple<int, int> cellLocation,)
         {
             return true;
         }

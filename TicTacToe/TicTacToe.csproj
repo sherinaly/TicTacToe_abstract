@@ -42,8 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Board.cs" />
+    <Compile Include="ComputerPlayer.cs" />
+    <Compile Include="HumanPlayer.cs" />
     <Compile Include="Player.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="TicTacToe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
