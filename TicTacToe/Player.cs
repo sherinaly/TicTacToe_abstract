@@ -12,7 +12,6 @@ namespace TicTacToe
         /// </summary>
         /// <value>My symbol on board.</value>
         public char MySymbolOnBoard { set; get; }
-
         private bool _iamCurrentlyPlaying; // the playing filed
         private bool _iWon; // initialized to ‘false by constructor
 

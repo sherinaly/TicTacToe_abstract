@@ -11,15 +11,15 @@ namespace TicTacToe
        
         private char[][] _board;
 
-        public Board(Tuple<char, char> playersSymbols, Tuple<char, char> boardSymbols)
+        public Board(Tuple<char, char> playersSymbols)
         {
-            BoardSymbols = boardSymbols;
+            BoardSymbols = playersSymbols;
             _board = null;
         }
 
-        public Board(Tuple<char, char> boardSymbols)
+        public Board()
         {
-            BoardSymbols = boardSymbols;
+            
         }
         /// <summary>
         ///     Checks if this board cell is empty.

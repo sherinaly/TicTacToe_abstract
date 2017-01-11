@@ -45,7 +45,7 @@
     <Compile Include="ComputerPlayer.cs" />
     <Compile Include="HumanPlayer.cs" />
     <Compile Include="Player.cs" />
-    <Compile Include="TicTacToe.cs" />
+    <Compile Include="TicTacToeGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
