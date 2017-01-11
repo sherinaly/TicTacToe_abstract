@@ -7,8 +7,8 @@ namespace TicTacToe
     /// </summary>
     public class Board
     {
-        public readonly Tuple<char, char> BoardSymbols;
-       
+        public Tuple<char, char> BoardSymbols { get; private set; }
+
         private char[][] _board;
 
         public Board(Tuple<char, char> playersSymbols)

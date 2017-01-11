@@ -5,9 +5,9 @@
         /// <summary>
         ///     The player name
         /// </summary>
-        public string Name;
+        public string Name { get; set; }
 
-       
+
         /// <summary>
         ///     Makes a smart move.
         ///     It sets the player symbol on one of the empty cells of the board
