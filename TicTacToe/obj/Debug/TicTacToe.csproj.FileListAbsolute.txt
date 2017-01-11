@@ -7,3 +7,4 @@ C:\Users\MR.FATHI\Documents\Visual Studio 2012\Projects\TicTacToe_abstract\TicTa
 C:\Users\MR.FATHI\Documents\Visual Studio 2012\Projects\TicTacToe_abstract\TicTacToe\obj\Debug\TicTacToe.pdb
 C:\Users\MR.FATHI\Documents\Visual Studio 2012\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
 C:\Users\MR.FATHI\Documents\Visual Studio 2012\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
+C:\Users\MR.FATHI\Documents\Visual Studio 2012\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csprojResolveAssemblyReference.cache

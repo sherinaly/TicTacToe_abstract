@@ -7,16 +7,7 @@
         /// </summary>
         public string Name;
 
-        /// <summary>
-        ///     Makes a random move.
-        ///     Pick a random empty location on the board
-        /// </summary>
-        /// <returns><c>true</c> if CheckIfIWon return true (the player won), <c>false</c> otherwise.</returns>
-        public override bool MakeRandomMove()
-        {
-            return true;
-        }
-
+       
         /// <summary>
         ///     Makes a smart move.
         ///     It sets the player symbol on one of the empty cells of the board
@@ -27,6 +18,14 @@
         public override bool MakeSmartMove()
         {
             return true;
+        }
+        /// <summary>
+        ///     Picks the symbol.
+        /// </summary>
+        /// <returns>System.Char.</returns>
+        public override char PickSymbol()
+        {
+            return 'o';
         }
     }
 }

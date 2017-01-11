@@ -3,18 +3,10 @@
     /// <summary>
     ///     Class ComputerPlayer.
     /// </summary>
-    /// <seealso cref="TicTacToe.Player" />
+    /// <seealso cref="Player" />
     public class ComputerPlayer : Player
     {
-        /// <summary>
-        ///     Makes a random move.
-        ///     Pick a random empty location on the board
-        /// </summary>
-        /// <returns><c>true</c> if CheckIfIWon return true (the player won), <c>false</c> otherwise.</returns>
-        public override bool MakeRandomMove()
-        {
-            return false;
-        }
+        
 
         /// <summary>
         ///     Makes a smart move.
@@ -28,13 +20,6 @@
             return true;
         }
 
-        /// <summary>
-        ///     Picks the symbol.
-        /// </summary>
-        /// <returns>System.Char.</returns>
-        public override char PickSymbol()
-        {
-            return 'o';
-        }
+      
     }
 }

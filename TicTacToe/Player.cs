@@ -2,22 +2,32 @@
 
 namespace TicTacToe
 {
+    /// <summary>
+    /// Class Player.
+    /// </summary>
     public class Player
     {
-        private readonly char _mySymbolOnBoard; // set by the constructor; could be either ‘x’ or ‘o’
+        /// <summary>
+        /// Gets or sets my symbol on board.
+        /// </summary>
+        /// <value>My symbol on board.</value>
+        public char MySymbolOnBoard { set; get; }
+
         private bool _iamCurrentlyPlaying; // the playing filed
         private bool _iWon; // initialized to ‘false by constructor
 
         /// <summary>
-        ///     Initializes a new instance of the <see cref="Player" /> class.
+        /// Initializes a new instance of the <see cref="Player" /> class.
         /// </summary>
         /// <param name="symbol">The player symbol.</param>
-        /// <param name="board">The board instance.</param>
         public Player(char symbol) // Constructor
         {
-            _mySymbolOnBoard = symbol;
+            MySymbolOnBoard = symbol;
         }
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Player"/> class.
+        /// </summary>
         public Player()
         {
         }
